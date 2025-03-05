@@ -1,0 +1,36 @@
+body{
+    font-family: "Trirong", serif;
+}
+code{
+    font-family: "Trirong", serif;
+    background-color: #ffcc99;
+}
+
+button{
+    background-color: #ff6699;
+    padding: 4px;
+    border-radius: 4px;
+    font-family: "Trirong", serif;
+    font-size: 16px;
+
+
+
+}
+#gettime{
+    background-color: #aaee11;
+    padding: 2px;
+    width: max-content;
+}
+
+#about-section{
+    background-color: #bbeeff;
+    padding: 4px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    width: max-content;
+    font-family: "Trirong", serif;
+    
+}
+#about-section a{
+    text-decoration: none;
+}

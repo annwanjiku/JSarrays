@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+</head>
+<body>
+    <div>
+        <button class="breed" onclick="fetchfact()">GetBreed</button>
+    </div>
+    <div>
+        <p id="about-section"><a href="about.html">About.html</a></p>
+    </div>
+    <div>
+        <p id="gettime">Get time</p>
+    </div>
+    <div>
+        <p><strong>Async and Await in JavaScript</strong></p>
+
+        <p>Async and await are used to handle asynchronous operations in JavaScript.</p>
+
+        <p><strong>Async Function:</strong> Declaring a function as <code>async</code> makes it return a promise.</p>
+
+        <p><strong>Await:</strong> The <code>await</code> keyword pauses execution until the promise resolves, making asynchronous code look synchronous.</p>
+
+        <p><strong>Example:</strong></p>
+
+        <pre>
+        <code>
+        async function fetchData() {
+        let response = await fetch('https://api.example.com/data');
+        let data = await response.json();
+        console.log(data);
+        }
+        fetchData();
+        </code>
+        </pre>
+
+        <p>This ensures <code>fetchData</code> waits for data before proceeding.</p>
+    </div>
+    <div>
+        <label for="color" id="colorlabel" style="font-weight: bold;">Color:</label>
+        <input type="color" name="color" id="color">
+    </div>
+    <div>
+    <pre style="font-family: 'Trirong', serif;">
+    <p>
+        numarray = [2,3,4,5,6,7]
+        To get the minimum number in an array you can spread the array ie.<strong><code style="background-color: #aaee88;">let minnum = Math.min(...numarray)</code></strong>
+        console.log(minnum)
+        result is 2;
+    </p>
+    </pre>
+    </div>
+ 
+<script src="script.js"></script>
+</body>
+</html>

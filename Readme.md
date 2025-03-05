@@ -177,3 +177,5 @@ for (let num of numbers) {
 
 ## Conclusion
 JavaScript provides multiple ways to iterate over arrays.
+
+[### Practice examples](https://annwanjiku.github.io/JSarrays/)

@@ -1,6 +1,7 @@
 # JavaScript Array Iteration Methods
 
-JavaScript provides several methods for iterating over arrays. These methods allow you to manipulate, filter, and transform array elements efficiently.
+JavaScript provides several methods for iterating over arrays.  
+These methods allow you to manipulate, filter, and transform array elements efficiently.
 
 ## 1. `forEach()`
 Executes a provided function once for each array element.
